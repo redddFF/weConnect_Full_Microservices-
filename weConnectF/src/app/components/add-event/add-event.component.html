@@ -1,0 +1,67 @@
+
+
+
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
+   <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+   <a href="" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><i class="fa fa-home w3-margin-right"></i>Home</a>
+   <a href="/add-event" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="News"><p> Add Event</p></a>
+ 
+   <div align="right">
+     <button class="w3-button w3-padding-large" title="Notifications"(click)="logOut()">Logout</button>     
+ 
+   </div>
+   <!--  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Account">
+     <img src="/w3images/avatar2.png" class="w3-circle" style="height:23px;width:23px" alt="Avatar">
+   </a>-->
+  </div>
+ </div>
+  
+
+
+  
+  <br><br><br><br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+          <h2>Add event</h2>
+      </div>
+          <div class="w3-col m7">
+          
+            <div class="w3-row-padding">
+              <div class="w3-col m12">
+                <div class="w3-card w3-round w3-white">
+                  <div class="w3-container w3-padding">
+                    <form action="/" method="post" enctype="multipart/form-data" novalidate [formGroup]="formvalue" >
+                  
+                      <div class="form-group">
+                        <label for="event_name">Name</label>
+                        <input formControlName="event_name" class="form-control" rows="3" placeholder="event_name">
+                      </div>
+                      <div class="form-group">
+                        <label for="description">Description</label>
+                        <textarea formControlName="description" class="form-control" rows="3" placeholder="description"></textarea>
+                      </div>
+                      <div class="form-group">
+                        <label for="date">Date </label>
+                        <input type="date" formControlName="date" class="form-control" rows="3" placeholder="date">
+                      </div>
+                      
+                      
+                      <br>
+
+
+
+  
+                          <button type="submit" (click)="onSubmit()" class="btn btn-success">Add Content</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+     
+  </div>
+
+

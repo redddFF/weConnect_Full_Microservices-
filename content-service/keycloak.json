@@ -1,0 +1,8 @@
+  {
+    "realm" : "master",
+    "realm-public-key" : "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp0iFC5Ijmx22AullJ99/Lk+Q34dmTWnqqDTmg3pcTEuvCeN6HV7kJ7Y1Tjh0j8qzFSoptmesfZ+2W2VvARLNSyCOIB+JhWwmAVsuuvM04EyMwAlxursaJRW88Z2EFa/29GyQfKkBPMDD4RYerLQmNrrl9sI+x4nexGoJQbp+T1j7tZZG2LTBGr/rVSwGdW0kV2oM4r3ZA+GuSd7G7qyMXZwY/yKpi3wZ0H0jAPHDBYRLRgY0Fx31pE3EzfVdp87MRaEXoaVKpaKYGR5XYTKjNWvJNRIRYbfF7nneO2Am/IP+kNgjMMLzxJpCP1OWiOUius7AFo2+e0B0Y+if+N0AUQIDAQAB",
+    "auth-server-url" : "http://localhost:8080/auth",
+    "ssl-required" : "external",
+    "resource" : "express",
+    "public-client" : true
+  }
